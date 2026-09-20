@@ -1,0 +1,1572 @@
+{
+  "schemaVersion": "1.0",
+  "caseId": "DPI-HT-01",
+  "student": {
+    "id": "PENDING",
+    "name": "Pending student certification"
+  },
+  "evidence": [
+    {
+      "id": "BK",
+      "name": "Bank Export August",
+      "reliability": "high"
+    },
+    {
+      "id": "CTR",
+      "name": "Contracts Returns and Angry Customers",
+      "reliability": "high"
+    },
+    {
+      "id": "EXT",
+      "name": "Evidence Received After Takeover",
+      "reliability": "high"
+    },
+    {
+      "id": "WH",
+      "name": "Warehouse Count Marta Notes",
+      "reliability": "medium"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D001",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of NorthStar receipt.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of northstar receipt. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D002",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Freedom receipt 1.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of freedom receipt 1. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D003",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Phoenix receipt.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of phoenix receipt. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D004",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Liberty receipt.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of liberty receipt. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D005",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Opening receivable receipt.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of opening receivable receipt. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D006",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Finally Single web receipts.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of finally single web receipts. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D007",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Never Call Back web receipts.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of never call back web receipts. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D008",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of New Beginnings deposit.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of new beginnings deposit. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D009",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Fresh Freedom deposit.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of fresh freedom deposit. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D010",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Box supplier payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of box supplier payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D011",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Glass supplier payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of glass supplier payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D012",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Print supplier payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of print supplier payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D013",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Event supplier payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of event supplier payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D014",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of January payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of january payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D015",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of February payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of february payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D016",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of March payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of march payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D017",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of April payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of april payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D018",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of May payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of may payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D019",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of June payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of june payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D020",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of July payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of july payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D021",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of August payroll.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of august payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D022",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Rent payments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of rent payments. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D023",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Meta and influencer payments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of meta and influencer payments. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D024",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Software payments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of software payments. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D025",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Utilities payments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of utilities payments. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D026",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Repair transfer.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of repair transfer. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D027",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Packaging machine payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of packaging machine payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D028",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Photo booth payment.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of photo booth payment. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D029",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan receipt.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of loan receipt. Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D030",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan repayments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of loan repayments. Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D031",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Interest payments.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of interest payments. Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D032",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Villa deposit.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of villa deposit. Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D033",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Owner card spending.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of owner card spending. Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D034",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Insurance movement.",
+      "answer": "Insurance movement is unavailable. Do not assume a zero expense.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "D035",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Water-damaged stock.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of water-damaged stock. Pending student certification.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D036",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Customer insolvency.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of customer insolvency. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D037",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Former employee claim.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of former employee claim. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D038",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Purchase total.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of purchase total. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D039",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Cash collections total.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of cash collections total. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D040",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Closing bank balance.",
+      "answer": "Proposed evidence-based treatment for resolve the source and treatment of closing bank balance. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D041",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify September customer deposits.",
+      "answer": "Recognize €90,000 as customer deposits, not August revenue.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €90,000 as customer deposits, not August revenue.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D042",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify New bank borrowing.",
+      "answer": "Recognize €50,000 Baltic Bank advance as a loan liability and financing inflow.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €50,000 Baltic Bank advance as a loan liability and financing inflow.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D043",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Packaging machine.",
+      "answer": "Capitalize the €60,000 packaging machine as PPE.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Capitalize the €60,000 packaging machine as PPE.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D044",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Photo booth.",
+      "answer": "Capitalize the €20,000 photo booth as PPE.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Capitalize the €20,000 photo booth as PPE.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D045",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Machine belt and calibration.",
+      "answer": "Expense the €10,000 belt and calibration as a repair.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Expense the €10,000 belt and calibration as a repair.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D046",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner villa deposit.",
+      "answer": "Treat the €70,000 villa reservation as an owner distribution unless repayment evidence appears.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Treat the €70,000 villa reservation as an owner distribution unless repayment evidence appears.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D047",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner card spending.",
+      "answer": "Treat the €40,000 owner-card spending as an owner distribution unless repayment evidence appears.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Treat the €40,000 owner-card spending as an owner distribution unless repayment evidence appears.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D048",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Physical product materials consumed.",
+      "answer": "Use €396,000 materials COGS and present the €22,000 write-down separately.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Use €396,000 materials COGS and present the €22,000 write-down separately.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D049",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Event staff payroll.",
+      "answer": "Classify €80,000 event delivery payroll as a direct service cost.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Classify €80,000 event delivery payroll as a direct service cost.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D050",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Sales team payroll.",
+      "answer": "Proposed evidence-based treatment for classify sales team payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D051",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Office payroll.",
+      "answer": "Proposed evidence-based treatment for classify office payroll. Pending student certification.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D052",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Rent.",
+      "answer": "Proposed evidence-based treatment for classify rent. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D053",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Marketing.",
+      "answer": "Proposed evidence-based treatment for classify marketing. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D054",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Software.",
+      "answer": "Proposed evidence-based treatment for classify software. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D055",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Utilities.",
+      "answer": "Proposed evidence-based treatment for classify utilities. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D056",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Depreciation.",
+      "answer": "Recognize €24,000 depreciation.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Recognize €24,000 depreciation.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D057",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Bad receivable.",
+      "answer": "Recognize an €18,000 expected credit loss for R-17.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize an €18,000 expected credit loss for R-17.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D058",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Damaged stock.",
+      "answer": "Write down €22,000 damaged stock to zero recoverable value.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "high",
+      "aiProposal": "Write down €22,000 damaged stock to zero recoverable value.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D059",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Probable legal claim.",
+      "answer": "Recognize a €25,000 employee-claim provision and disclose the range.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize a €25,000 employee-claim provision and disclose the range.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D060",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Insurance consumed.",
+      "answer": "Insurance expense is unavailable because no evidence was supplied.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "D061",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid interest.",
+      "answer": "Recognize €2,000 unpaid interest.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D062",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid payroll.",
+      "answer": "Recognize €32,000 unpaid payroll.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D063",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid suppliers.",
+      "answer": "Recognize €126,000 trade payables.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D064",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered NorthStar contract.",
+      "answer": "Recognize €180,000 NorthStar revenue on acceptance.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €180,000 NorthStar revenue on acceptance.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D065",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Freedom contract.",
+      "answer": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D066",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Completed Phoenix event.",
+      "answer": "Recognize €100,000 Phoenix revenue on completion.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Recognize €100,000 Phoenix revenue on completion.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D067",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Liberty order.",
+      "answer": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D068",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Undelivered September events.",
+      "answer": "Do not recognize €90,000 September events as August revenue.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Do not recognize €90,000 September events as August revenue.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D069",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Loan principal payment.",
+      "answer": "Proposed evidence-based treatment for classify loan principal payment. Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D070",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Equipment purchase.",
+      "answer": "Proposed evidence-based treatment for classify equipment purchase. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D071",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "answer": "Use €18,000 for the R-17 allowance/write-off.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Use €18,000 for the R-17 allowance/write-off.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D072",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "answer": "Use a €22,000 damaged-inventory write-off.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "high",
+      "aiProposal": "Use a €22,000 damaged-inventory write-off.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D073",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Legal provision and document the basis.",
+      "answer": "Use €25,000 as the legal provision.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Use €25,000 as the legal provision.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D074",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Period depreciation and document the basis.",
+      "answer": "Use €24,000 period depreciation.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Use €24,000 period depreciation.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D075",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing inventory and document the basis.",
+      "answer": "Use €121,000 closing usable inventory and disclose €9,000 difference.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Use €121,000 closing usable inventory and disclose €9,000 difference.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D076",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing receivables and document the basis.",
+      "answer": "Use €168,000 net closing receivables.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D077",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Repair versus improvement amount and document the basis.",
+      "answer": "Proposed evidence-based treatment for estimate repair versus improvement amount and document the basis. Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D078",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Insurance expense and document the basis.",
+      "answer": "Insurance is unavailable, not zero.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "D079",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Interest payable and document the basis.",
+      "answer": "Use €2,000 interest payable.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D080",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accrued payroll and document the basis.",
+      "answer": "Use €32,000 payroll payable.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D081",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Customer deposit liability and document the basis.",
+      "answer": "Use €90,000 customer deposits.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D082",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate PPE closing cost and document the basis.",
+      "answer": "Use €260,000 PPE cost.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D083",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accumulated depreciation and document the basis.",
+      "answer": "Use €69,000 accumulated depreciation.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D084",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Supplier payable and document the basis.",
+      "answer": "Use €126,000 supplier payable and disclose inferred €45,000 opening payable.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D085",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing loan and document the basis.",
+      "answer": "Use €131,000 closing loan.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D086",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Physical COGS and document the basis.",
+      "answer": "Use €396,000 materials COGS plus €22,000 write-down.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D087",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Service direct payroll and document the basis.",
+      "answer": "Use €80,000 direct event payroll.",
+      "evidence": [
+        "PAY: Payroll",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D088",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Owner distributions and document the basis.",
+      "answer": "Use €110,000 owner distributions.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D089",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Net profit and document the basis.",
+      "answer": "Use €72,000 profit.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D090",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing cash and document the basis.",
+      "answer": "Use €60,000 closing cash confirmed by the bank.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D091",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Approve corrected accounts before valuation",
+      "answer": "Approve corrected accounts only after student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Approve corrected accounts only after student certification.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D092",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Freeze owner-card access",
+      "answer": "Proposed evidence-based treatment for freeze owner-card access Pending student certification.",
+      "evidence": [
+        "LGL: Loans Owner Card and Legal Problems",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D093",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Move September deposits to contract liabilities",
+      "answer": "Proposed evidence-based treatment for move september deposits to contract liabilities Pending student certification.",
+      "evidence": [
+        "CTR: Contracts Returns and Angry Customers",
+        "CRM: CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D094",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Begin weekly 13-week cash forecast",
+      "answer": "Proposed evidence-based treatment for begin weekly 13-week cash forecast Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D095",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Stop credit sales to insolvent/high-risk customers",
+      "answer": "Proposed evidence-based treatment for stop credit sales to insolvent/high-risk customers Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D096",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Dispose of damaged stock",
+      "answer": "Proposed evidence-based treatment for dispose of damaged stock Pending student certification.",
+      "evidence": [
+        "WH: Warehouse Count Marta Notes",
+        "PUR: Purchases Invoices and Goods Received"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D097",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Investigate management override and duplicate sources",
+      "answer": "Proposed evidence-based treatment for investigate management override and duplicate sources Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D098",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Renegotiate supplier terms",
+      "answer": "Proposed evidence-based treatment for renegotiate supplier terms Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D099",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Continue core Finally Single and event operations",
+      "answer": "Proposed evidence-based treatment for continue core finally single and event operations Pending student certification.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D100",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Use claimed management profit for earn-out",
+      "answer": "Do not use management's €312,000 profit for valuation or earn-out.",
+      "evidence": [
+        "ORD: Board Order",
+        "BK: Bank Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Do not use management's €312,000 profit for valuation or earn-out.",
+      "independentChallenge": "Independent analysis reached the same proposed treatment using the original evidence. Preserve stated uncertainties.",
+      "studentReasoning": "Pending student certification. The application keeps the proposal separate from the student's final approval.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    }
+  ],
+  "schedules": {
+    "revenueAndReceivables": {
+      "revenue": 960000,
+      "netReceivables": 168000
+    },
+    "inventoryAndCogs": {
+      "closingInventory": 121000,
+      "cogs": 498000
+    },
+    "payroll": {
+      "closingPayable": 32000
+    },
+    "ppe": {
+      "net": 191000
+    },
+    "debt": {
+      "principal": 131000,
+      "interestPayable": 2000
+    },
+    "equity": {
+      "closing": 132000,
+      "distributions": 110000
+    }
+  },
+  "statements": {
+    "profitAndLoss": {
+      "revenue": 960000,
+      "cogs": 498000,
+      "operatingProfit": 84000,
+      "interestExpense": 12000,
+      "profit": 72000
+    },
+    "cashFlow": {
+      "openingCash": 80000,
+      "operatingCashFlow": 139000,
+      "investingCashFlow": -80000,
+      "financingCashFlow": -79000,
+      "closingCash": 60000
+    },
+    "balanceSheet": {
+      "assets": 540000,
+      "liabilities": 408000,
+      "equity": 132000
+    }
+  },
+  "reconciliations": [
+    "Balance sheet balances",
+    "Closing cash agrees to bank and cash flow",
+    "Revenue and receivables reconcile",
+    "Inventory and COGS reconcile",
+    "PPE and depreciation reconcile",
+    "Debt and interest reconcile",
+    "Equity roll-forward reconciles"
+  ],
+  "uncertainties": [
+    "€9,000 inventory count difference",
+    "€45,000 inferred opening supplier payable",
+    "Owner repayment evidence absent",
+    "Insurance evidence unavailable",
+    "€2,000 disposal policy judgment"
+  ],
+  "boardRecommendation": {
+    "recommendation": "Approve corrected accounts only after student certification. Do not use management profit for valuation or earn-out.",
+    "status": "pending_student_certification"
+  }
+}
