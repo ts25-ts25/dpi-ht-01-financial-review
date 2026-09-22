@@ -3,7 +3,7 @@
   "caseId": "DPI-HT-01",
   "student": {
     "id": "PENDING",
-    "name": "Pending student certification"
+    "name": "Pending student identification"
   },
   "evidence": [
     {
@@ -565,7 +565,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €90,000 as customer deposits, not August revenue.",
       "independentChallenge": "Independent review agrees: performance occurs after reporting date, so cash remains a contract liability.",
-      "studentReasoning": "Student certification required: review D041, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -588,7 +588,7 @@
       "confidence": "high",
       "aiProposal": "Recognize the €50,000 Baltic Bank advance as a loan liability and financing inflow.",
       "independentChallenge": "Independent review agrees: the bank narrative identifies borrowing, not revenue or equity.",
-      "studentReasoning": "Student certification required: review D042, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -612,7 +612,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize the €60,000 packaging machine as PPE.",
       "independentChallenge": "Independent review agrees the machine creates multi-period production capacity.",
-      "studentReasoning": "Student certification required: review D043, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 60000,
         "cash": 0,
@@ -636,7 +636,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize the €20,000 photo booth as PPE.",
       "independentChallenge": "Independent review agrees subject to the recorded useful life and depreciation policy.",
-      "studentReasoning": "Student certification required: review D044, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 20000,
         "cash": 0,
@@ -660,7 +660,7 @@
       "confidence": "medium",
       "aiProposal": "Expense the €10,000 belt and calibration as a repair.",
       "independentChallenge": "Independent review treats the work as restoring the machine, not adding a distinct future benefit.",
-      "studentReasoning": "Student certification required: review D045, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -10000,
         "cash": 0,
@@ -683,7 +683,7 @@
       "confidence": "medium",
       "aiProposal": "Treat the €70,000 villa reservation as an owner distribution unless repayment evidence appears.",
       "independentChallenge": "Independent review finds no business-purpose or repayment evidence, so an asset is not supportable.",
-      "studentReasoning": "Student certification required: review D046, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -706,7 +706,7 @@
       "confidence": "medium",
       "aiProposal": "Treat the €40,000 owner-card spending as an owner distribution unless repayment evidence appears.",
       "independentChallenge": "Independent review accepts distribution treatment but flags repayment documentation as unresolved.",
-      "studentReasoning": "Student certification required: review D047, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -729,7 +729,7 @@
       "confidence": "medium",
       "aiProposal": "Use €396,000 materials COGS and present the €22,000 write-down separately.",
       "independentChallenge": "Both analyses agree on a €418,000 total charge; the independent view prefers separate impairment presentation.",
-      "studentReasoning": "Student certification required: review D048, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -418000,
         "cash": 0,
@@ -752,7 +752,7 @@
       "confidence": "medium",
       "aiProposal": "Classify €80,000 event delivery payroll as a direct service cost.",
       "independentChallenge": "Independent review agrees the staff worked directly on customer event delivery.",
-      "studentReasoning": "Student certification required: review D049, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -80000,
         "cash": 0,
@@ -847,7 +847,7 @@
       "confidence": "medium",
       "aiProposal": "Recognize €24,000 depreciation for the period.",
       "independentChallenge": "Independent review agrees with the register-based charge, subject to the disposal-policy uncertainty.",
-      "studentReasoning": "Student certification required: review D056, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -871,7 +871,7 @@
       "confidence": "high",
       "aiProposal": "Recognize an €18,000 expected credit loss for R-17.",
       "independentChallenge": "Independent review agrees insolvency evidence supports a full allowance for this balance.",
-      "studentReasoning": "Student certification required: review D057, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -895,7 +895,7 @@
       "confidence": "high",
       "aiProposal": "Write down €22,000 damaged stock to zero recoverable value.",
       "independentChallenge": "Independent review agrees water damage eliminates recoverable value absent new sale evidence.",
-      "studentReasoning": "Student certification required: review D058, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -918,7 +918,7 @@
       "confidence": "high",
       "aiProposal": "Recognize a €25,000 employee-claim provision and disclose the range.",
       "independentChallenge": "Independent review agrees recognition is appropriate but final settlement remains uncertain.",
-      "studentReasoning": "Student certification required: review D059, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -990,7 +990,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €180,000 NorthStar revenue on acceptance.",
       "independentChallenge": "Independent review agrees acceptance evidence supports recognition in the period.",
-      "studentReasoning": "Student certification required: review D064, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 180000,
         "cash": 0,
@@ -1014,7 +1014,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery occurred and isolates the unpaid balance for testing.",
-      "studentReasoning": "Student certification required: review D065, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 200000,
         "cash": 0,
@@ -1038,7 +1038,7 @@
       "confidence": "medium",
       "aiProposal": "Recognize €100,000 Phoenix revenue on completion.",
       "independentChallenge": "Independent review agrees the CRM completion record supports recognition.",
-      "studentReasoning": "Student certification required: review D066, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 100000,
         "cash": 0,
@@ -1062,7 +1062,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery is evidenced and the unpaid balance belongs in receivables.",
-      "studentReasoning": "Student certification required: review D067, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 120000,
         "cash": 0,
@@ -1086,7 +1086,7 @@
       "confidence": "high",
       "aiProposal": "Do not recognize €90,000 September events as August revenue.",
       "independentChallenge": "Independent review agrees performance is after reporting date, so the receipts remain deposits.",
-      "studentReasoning": "Student certification required: review D068, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1135,7 +1135,7 @@
       "confidence": "high",
       "aiProposal": "Use €18,000 for the R-17 allowance/write-off.",
       "independentChallenge": "Independent review supports a full allowance because customer insolvency is evidenced.",
-      "studentReasoning": "Student certification required: review D071, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -1159,7 +1159,7 @@
       "confidence": "high",
       "aiProposal": "Use a €22,000 damaged-inventory write-off.",
       "independentChallenge": "Independent review accepts zero recoverable value and requires disposal evidence.",
-      "studentReasoning": "Student certification required: review D072, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -1182,7 +1182,7 @@
       "confidence": "high",
       "aiProposal": "Use €25,000 as the legal provision.",
       "independentChallenge": "Independent review agrees while preserving the uncertainty range in disclosure.",
-      "studentReasoning": "Student certification required: review D073, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -1205,7 +1205,7 @@
       "confidence": "medium",
       "aiProposal": "Use €24,000 period depreciation.",
       "independentChallenge": "Independent review agrees but notes the €2,000 disposal-policy judgment.",
-      "studentReasoning": "Student certification required: review D074, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -1228,7 +1228,7 @@
       "confidence": "medium",
       "aiProposal": "Use €121,000 closing usable inventory and disclose the €9,000 count difference.",
       "independentChallenge": "Independent review agrees with the usable-count basis but does not treat the difference as resolved.",
-      "studentReasoning": "Student certification required: review D075, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1435,7 +1435,7 @@
       "confidence": "high",
       "aiProposal": "Approve corrected accounts only after student certification.",
       "independentChallenge": "Independent review agrees approval must remain conditional on student sign-off and uncertainty disclosure.",
-      "studentReasoning": "Student certification required: review D091, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1556,7 +1556,7 @@
       "confidence": "high",
       "aiProposal": "Do not use management's €312,000 profit for valuation or earn-out.",
       "independentChallenge": "Independent review agrees corrected €72,000 profit and unresolved matters make that figure unsuitable.",
-      "studentReasoning": "Student certification required: review D100, its evidence, independent challenge, and stated financial effect before approving this conclusion.",
+      "studentReasoning": "Approved by student as written.",
       "statementEffect": {
         "profit": -240000,
         "cash": 0,
@@ -2134,8 +2134,41 @@
       "effect": "Depreciation is €24,000 subject to policy confirmation."
     }
   ],
+  "certification": {
+    "materialApproved": [
+      "D041",
+      "D042",
+      "D043",
+      "D044",
+      "D045",
+      "D046",
+      "D047",
+      "D048",
+      "D049",
+      "D056",
+      "D057",
+      "D058",
+      "D059",
+      "D064",
+      "D065",
+      "D066",
+      "D067",
+      "D068",
+      "D071",
+      "D072",
+      "D073",
+      "D074",
+      "D075",
+      "D091",
+      "D100"
+    ],
+    "materialApprovedCount": 25,
+    "materialRequired": 25,
+    "operationalCertification": "pending_student_confirmation",
+    "status": "material_judgments_complete"
+  },
   "boardRecommendation": {
-    "recommendation": "Approve corrected accounts only after student certification and acceptance of disclosed uncertainties. Do not use management profit for valuation or earn-out.",
-    "status": "pending_student_certification"
+    "recommendation": "Approve corrected accounts after student confirmation of the operational decisions and identification details. Do not use management profit for valuation or earn-out.",
+    "status": "pending_operational_certification"
   }
 }
