@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "caseId": "DPI-HT-01",
   "student": {
-    "id": "PENDING",
-    "name": "Pending student identification"
+    "id": "ts25024",
+    "name": "Student identified by ID ts25024"
   },
   "evidence": [
     {
@@ -565,7 +565,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €90,000 as customer deposits, not August revenue.",
       "independentChallenge": "Independent review agrees: performance occurs after reporting date, so cash remains a contract liability.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the contract and CRM show the September events had not been performed by 31 August, so the receipt is a customer-deposit liability rather than revenue.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -588,7 +588,7 @@
       "confidence": "high",
       "aiProposal": "Recognize the €50,000 Baltic Bank advance as a loan liability and financing inflow.",
       "independentChallenge": "Independent review agrees: the bank narrative identifies borrowing, not revenue or equity.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the bank export and loan evidence identify the €50,000 receipt as borrowing, so it is a financing inflow and loan liability.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -612,7 +612,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize the €60,000 packaging machine as PPE.",
       "independentChallenge": "Independent review agrees the machine creates multi-period production capacity.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the invoice and PPE register show the packaging machine provides production capacity beyond the current period, so capitalization is appropriate.",
       "statementEffect": {
         "profit": 60000,
         "cash": 0,
@@ -636,7 +636,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize the €20,000 photo booth as PPE.",
       "independentChallenge": "Independent review agrees subject to the recorded useful life and depreciation policy.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the photo booth will be used across more than one period; the PPE register supports capitalization followed by depreciation.",
       "statementEffect": {
         "profit": 20000,
         "cash": 0,
@@ -660,7 +660,7 @@
       "confidence": "medium",
       "aiProposal": "Expense the €10,000 belt and calibration as a repair.",
       "independentChallenge": "Independent review treats the work as restoring the machine, not adding a distinct future benefit.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the belt and calibration restore the existing machine rather than create a separate future economic benefit, so repair expense is appropriate.",
       "statementEffect": {
         "profit": -10000,
         "cash": 0,
@@ -683,11 +683,11 @@
       "confidence": "medium",
       "aiProposal": "Treat the €70,000 villa reservation as an owner distribution unless repayment evidence appears.",
       "independentChallenge": "Independent review finds no business-purpose or repayment evidence, so an asset is not supportable.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the bank and legal evidence provide no business purpose or repayment terms; the €70,000 cash withdrawal therefore reduces cash/assets and owner equity as a distribution.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 0,
+        "cash": -70000,
+        "assets": -70000,
         "liabilities": 0,
         "equity": -70000
       },
@@ -706,11 +706,11 @@
       "confidence": "medium",
       "aiProposal": "Treat the €40,000 owner-card spending as an owner distribution unless repayment evidence appears.",
       "independentChallenge": "Independent review accepts distribution treatment but flags repayment documentation as unresolved.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because there is no documented repayment obligation or business purpose for the €40,000 card spending; it therefore reduces cash/assets and owner equity as a distribution.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 0,
+        "cash": -40000,
+        "assets": -40000,
         "liabilities": 0,
         "equity": -40000
       },
@@ -729,7 +729,7 @@
       "confidence": "medium",
       "aiProposal": "Use €396,000 materials COGS and present the €22,000 write-down separately.",
       "independentChallenge": "Both analyses agree on a €418,000 total charge; the independent view prefers separate impairment presentation.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the warehouse and purchase evidence support €396,000 of materials consumed and a distinct €22,000 impairment of damaged stock, which should be presented separately.",
       "statementEffect": {
         "profit": -418000,
         "cash": 0,
@@ -752,7 +752,7 @@
       "confidence": "medium",
       "aiProposal": "Classify €80,000 event delivery payroll as a direct service cost.",
       "independentChallenge": "Independent review agrees the staff worked directly on customer event delivery.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the payroll evidence shows the event staff worked directly on customer delivery, making €80,000 a direct service cost.",
       "statementEffect": {
         "profit": -80000,
         "cash": 0,
@@ -846,8 +846,8 @@
       ],
       "confidence": "medium",
       "aiProposal": "Recognize €24,000 depreciation for the period.",
-      "independentChallenge": "Independent review agrees with the register-based charge, subject to the disposal-policy uncertainty.",
-      "studentReasoning": "Approved by student as written.",
+      "independentChallenge": "Independent review agrees with the register-based charge; the separate €2,000 disposal provision remains an uncertainty.",
+      "studentReasoning": "I accept this because the PPE register supports the €24,000 charge for the period; the separate €2,000 disposal provision is disclosed independently.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -871,7 +871,7 @@
       "confidence": "high",
       "aiProposal": "Recognize an €18,000 expected credit loss for R-17.",
       "independentChallenge": "Independent review agrees insolvency evidence supports a full allowance for this balance.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the external insolvency evidence for R-17 supports a full €18,000 expected credit-loss allowance.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -895,7 +895,7 @@
       "confidence": "high",
       "aiProposal": "Write down €22,000 damaged stock to zero recoverable value.",
       "independentChallenge": "Independent review agrees water damage eliminates recoverable value absent new sale evidence.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the warehouse evidence shows water damage and no recoverable value, so the €22,000 stock balance must be written down.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -918,7 +918,7 @@
       "confidence": "high",
       "aiProposal": "Recognize a €25,000 employee-claim provision and disclose the range.",
       "independentChallenge": "Independent review agrees recognition is appropriate but final settlement remains uncertain.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the legal evidence makes an employee-claim outflow probable and supports a €25,000 provision, while the possible range remains disclosed.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -990,7 +990,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €180,000 NorthStar revenue on acceptance.",
       "independentChallenge": "Independent review agrees acceptance evidence supports recognition in the period.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the NorthStar acceptance evidence shows the performance obligation was satisfied before 31 August, so €180,000 revenue is recognized.",
       "statementEffect": {
         "profit": 180000,
         "cash": 0,
@@ -1014,7 +1014,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery occurred and isolates the unpaid balance for testing.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the Freedom delivery evidence supports €200,000 revenue; the unpaid €58,000 remains a receivable.",
       "statementEffect": {
         "profit": 200000,
         "cash": 0,
@@ -1038,7 +1038,7 @@
       "confidence": "medium",
       "aiProposal": "Recognize €100,000 Phoenix revenue on completion.",
       "independentChallenge": "Independent review agrees the CRM completion record supports recognition.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the CRM completion record supports recognition of €100,000 Phoenix revenue in the reporting period.",
       "statementEffect": {
         "profit": 100000,
         "cash": 0,
@@ -1062,7 +1062,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery is evidenced and the unpaid balance belongs in receivables.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the Liberty delivery evidence supports €120,000 revenue and identifies €25,000 as still receivable.",
       "statementEffect": {
         "profit": 120000,
         "cash": 0,
@@ -1086,7 +1086,7 @@
       "confidence": "high",
       "aiProposal": "Do not recognize €90,000 September events as August revenue.",
       "independentChallenge": "Independent review agrees performance is after reporting date, so the receipts remain deposits.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept this because the September events occur after the reporting date; the €90,000 received remains a customer-deposit liability at 31 August.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1135,7 +1135,7 @@
       "confidence": "high",
       "aiProposal": "Use €18,000 for the R-17 allowance/write-off.",
       "independentChallenge": "Independent review supports a full allowance because customer insolvency is evidenced.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept the €18,000 allowance because R-17 insolvency evidence supports full expected-credit-loss recognition.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -1159,7 +1159,7 @@
       "confidence": "high",
       "aiProposal": "Use a €22,000 damaged-inventory write-off.",
       "independentChallenge": "Independent review accepts zero recoverable value and requires disposal evidence.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept the €22,000 write-off because the damaged inventory has no evidenced recoverable value.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -1182,7 +1182,7 @@
       "confidence": "high",
       "aiProposal": "Use €25,000 as the legal provision.",
       "independentChallenge": "Independent review agrees while preserving the uncertainty range in disclosure.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept the €25,000 provision because legal evidence supports a probable obligation, while the final settlement range is still disclosed.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -1204,8 +1204,8 @@
       ],
       "confidence": "medium",
       "aiProposal": "Use €24,000 period depreciation.",
-      "independentChallenge": "Independent review agrees but notes the €2,000 disposal-policy judgment.",
-      "studentReasoning": "Approved by student as written.",
+      "independentChallenge": "Independent review agrees the depreciation estimate is supported by the PPE register; the separate €2,000 disposal provision remains disclosed as an uncertainty.",
+      "studentReasoning": "I accept €24,000 depreciation because it is supported by the PPE register and period calculation; it is separate from the €2,000 disposal-provision uncertainty.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -1228,7 +1228,7 @@
       "confidence": "medium",
       "aiProposal": "Use €121,000 closing usable inventory and disclose the €9,000 count difference.",
       "independentChallenge": "Independent review agrees with the usable-count basis but does not treat the difference as resolved.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept €121,000 closing inventory because it reflects the usable count; the €9,000 difference is not hidden and remains disclosed.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1435,7 +1435,7 @@
       "confidence": "high",
       "aiProposal": "Approve corrected accounts only after student certification.",
       "independentChallenge": "Independent review agrees approval must remain conditional on student sign-off and uncertainty disclosure.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept approval only after this documented certification because the corrected accounts and their remaining uncertainties must be explicitly owned by the student before valuation use.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1556,7 +1556,7 @@
       "confidence": "high",
       "aiProposal": "Do not use management's €312,000 profit for valuation or earn-out.",
       "independentChallenge": "Independent review agrees corrected €72,000 profit and unresolved matters make that figure unsuitable.",
-      "studentReasoning": "Approved by student as written.",
+      "studentReasoning": "I accept excluding management's €312,000 profit because the evidence-supported corrected profit is €72,000 and unresolved matters make the management figure unsuitable for valuation or earn-out.",
       "statementEffect": {
         "profit": -240000,
         "cash": 0,
@@ -2130,8 +2130,8 @@
       "effect": "No zero-expense assumption; insurance remains low confidence."
     },
     {
-      "matter": "€2,000 disposal-policy judgment",
-      "effect": "Depreciation is €24,000 subject to policy confirmation."
+      "matter": "€2,000 disposal provision",
+      "effect": "A €2,000 provision is recognized for the expected cost of disposing of the relevant asset/item. The final disposal method and timing remain to be confirmed; this uncertainty is separate from the €24,000 depreciation charge."
     }
   ],
   "certification": {
@@ -2164,11 +2164,12 @@
     ],
     "materialApprovedCount": 25,
     "materialRequired": 25,
-    "operationalCertification": "pending_student_confirmation",
-    "status": "material_judgments_complete"
+    "operationalCertification": "confirmed_by_student",
+    "operationalDecisionCount": 75,
+    "status": "student_certification_complete"
   },
   "boardRecommendation": {
-    "recommendation": "Approve corrected accounts after student confirmation of the operational decisions and identification details. Do not use management profit for valuation or earn-out.",
-    "status": "pending_operational_certification"
+    "recommendation": "Corrected accounts are student-certified for submission. Do not use management's claimed profit for valuation or earn-out; use corrected €72,000 profit with the disclosed uncertainties.",
+    "status": "ready_for_submission"
   }
 }

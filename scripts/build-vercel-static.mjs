@@ -22,4 +22,5 @@ const css=`:root{--blue:#0c4a7c;--ink:#12304d;--muted:#587188;--line:#cfdfed;--p
 await fs.rm(out,{recursive:true,force:true});
 await fs.mkdir(path.join(out,"review"),{recursive:true});
 await Promise.all([fs.writeFile(path.join(out,"index.html"),home),fs.writeFile(path.join(out,"review","index.html"),review),fs.writeFile(path.join(out,"styles.css"),css),fs.writeFile(path.join(out,"submission.json"),JSON.stringify(data,null,2)+"\n")]);
+await fs.writeFile(path.join(out,"index.html"),home.replace("Corrected accounts<br>awaiting certification.","Corrected accounts<br>student-certified.").replace("student certification in progress","student certification complete"));
 console.log("Built Vercel static site.");
