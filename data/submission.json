@@ -1,6 +1,7 @@
 {
   "schemaVersion": "1.0",
   "caseId": "DPI-HT-01",
+  "reportingBasis": "€74,000 no-disposal-provision base case; conditional €72,000 scenario disclosed separately",
   "student": {
     "id": "ts25024",
     "name": "Student identified by ID ts25024"
@@ -573,7 +574,8 @@
         "liabilities": 90000,
         "equity": -90000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D042",
@@ -591,12 +593,13 @@
       "studentReasoning": "I accept this because the bank export and loan evidence identify the €50,000 receipt as borrowing, so it is a financing inflow and loan liability.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 0,
+        "cash": 50000,
+        "assets": 50000,
         "liabilities": 50000,
         "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Cash receipt from bank borrowing: cash and total assets increase €50,000, matched by a €50,000 loan liability; there is no profit or equity effect."
     },
     {
       "id": "D043",
@@ -620,7 +623,8 @@
         "liabilities": 0,
         "equity": 60000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D044",
@@ -644,7 +648,8 @@
         "liabilities": 0,
         "equity": 20000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D045",
@@ -663,12 +668,13 @@
       "studentReasoning": "I accept this because the belt and calibration restore the existing machine rather than create a separate future economic benefit, so repair expense is appropriate.",
       "statementEffect": {
         "profit": -10000,
-        "cash": 0,
-        "assets": 0,
+        "cash": -10000,
+        "assets": -10000,
         "liabilities": 0,
         "equity": -10000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Bank evidence shows the repair was paid in the period: repair expense reduces profit/equity and cash/total assets by €10,000; no payable remains."
     },
     {
       "id": "D046",
@@ -691,7 +697,8 @@
         "liabilities": 0,
         "equity": -70000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D047",
@@ -714,7 +721,8 @@
         "liabilities": 0,
         "equity": -40000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D048",
@@ -737,7 +745,8 @@
         "liabilities": 0,
         "equity": -418000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D049",
@@ -755,12 +764,13 @@
       "studentReasoning": "I accept this because the payroll evidence shows the event staff worked directly on customer delivery, making €80,000 a direct service cost.",
       "statementEffect": {
         "profit": -80000,
-        "cash": 0,
-        "assets": 0,
+        "cash": -80000,
+        "assets": -80000,
         "liabilities": 0,
         "equity": -80000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Payroll and bank evidence show the direct event payroll was paid: direct service cost reduces profit/equity and cash/total assets by €80,000; no payroll payable is created by this decision."
     },
     {
       "id": "D050",
@@ -847,7 +857,7 @@
       "confidence": "medium",
       "aiProposal": "Recognize €24,000 depreciation for the period.",
       "independentChallenge": "Independent review agrees with the register-based charge; the separate €2,000 disposal provision remains an uncertainty.",
-      "studentReasoning": "I accept this because the PPE register supports the €24,000 charge for the period; the separate €2,000 disposal provision is disclosed independently.",
+      "studentReasoning": "I accept €24,000 depreciation because it is supported by the PPE register. The €2,000 potential disposal cost is not included in the base case because no present obligation is evidenced.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -855,7 +865,8 @@
         "liabilities": 0,
         "equity": -24000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D057",
@@ -879,7 +890,8 @@
         "liabilities": 0,
         "equity": -18000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D058",
@@ -903,7 +915,8 @@
         "liabilities": 0,
         "equity": -22000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D059",
@@ -926,7 +939,8 @@
         "liabilities": 25000,
         "equity": -25000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D060",
@@ -998,79 +1012,83 @@
         "liabilities": 0,
         "equity": 180000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D065",
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Delivered Freedom contract.",
-      "answer": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
+      "answer": "Recognize €200,000 Freedom revenue; €142,000 was collected and €58,000 remains receivable.",
       "evidence": [
         "CTR",
         "CRM",
         "BK"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €200,000 Freedom revenue; €58,000 remains receivable.",
+      "aiProposal": "Recognize €200,000 Freedom revenue; €142,000 was collected and €58,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery occurred and isolates the unpaid balance for testing.",
       "studentReasoning": "I accept this because the Freedom delivery evidence supports €200,000 revenue; the unpaid €58,000 remains a receivable.",
       "statementEffect": {
         "profit": 200000,
-        "cash": 0,
-        "assets": 58000,
+        "cash": 142000,
+        "assets": 200000,
         "liabilities": 0,
         "equity": 200000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "The €200,000 delivered contract is represented by €142,000 cash collected plus €58,000 receivable; together those components increase total assets by €200,000."
     },
     {
       "id": "D066",
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Completed Phoenix event.",
-      "answer": "Recognize €100,000 Phoenix revenue on completion.",
+      "answer": "Recognize €100,000 Phoenix revenue on completion; the amount was collected in cash.",
       "evidence": [
         "CTR",
         "CRM",
         "BK"
       ],
       "confidence": "medium",
-      "aiProposal": "Recognize €100,000 Phoenix revenue on completion.",
+      "aiProposal": "Recognize €100,000 Phoenix revenue on completion; the amount was collected in cash.",
       "independentChallenge": "Independent review agrees the CRM completion record supports recognition.",
       "studentReasoning": "I accept this because the CRM completion record supports recognition of €100,000 Phoenix revenue in the reporting period.",
       "statementEffect": {
         "profit": 100000,
-        "cash": 0,
-        "assets": 0,
+        "cash": 100000,
+        "assets": 100000,
         "liabilities": 0,
         "equity": 100000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "The completed Phoenix event was paid in cash, so the €100,000 revenue increase is matched by a €100,000 cash and total-assets increase."
     },
     {
       "id": "D067",
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Delivered Liberty order.",
-      "answer": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
+      "answer": "Recognize €120,000 Liberty revenue; €95,000 was collected and €25,000 remains receivable.",
       "evidence": [
         "CTR",
         "CRM",
         "BK"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €120,000 Liberty revenue; €25,000 remains receivable.",
+      "aiProposal": "Recognize €120,000 Liberty revenue; €95,000 was collected and €25,000 remains receivable.",
       "independentChallenge": "Independent review agrees delivery is evidenced and the unpaid balance belongs in receivables.",
       "studentReasoning": "I accept this because the Liberty delivery evidence supports €120,000 revenue and identifies €25,000 as still receivable.",
       "statementEffect": {
         "profit": 120000,
-        "cash": 0,
-        "assets": 25000,
+        "cash": 95000,
+        "assets": 120000,
         "liabilities": 0,
         "equity": 120000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "The €120,000 delivered order is represented by €95,000 cash collected plus €25,000 receivable; together those components increase total assets by €120,000."
     },
     {
       "id": "D068",
@@ -1094,7 +1112,8 @@
         "liabilities": 90000,
         "equity": -90000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D069",
@@ -1143,7 +1162,8 @@
         "liabilities": 0,
         "equity": -18000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D072",
@@ -1167,7 +1187,8 @@
         "liabilities": 0,
         "equity": -22000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D073",
@@ -1190,7 +1211,8 @@
         "liabilities": 25000,
         "equity": -25000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D074",
@@ -1205,7 +1227,7 @@
       "confidence": "medium",
       "aiProposal": "Use €24,000 period depreciation.",
       "independentChallenge": "Independent review agrees the depreciation estimate is supported by the PPE register; the separate €2,000 disposal provision remains disclosed as an uncertainty.",
-      "studentReasoning": "I accept €24,000 depreciation because it is supported by the PPE register and period calculation; it is separate from the €2,000 disposal-provision uncertainty.",
+      "studentReasoning": "I accept €24,000 depreciation because it is supported by the PPE register and period calculation. The €2,000 disposal amount is shown only as a conditional provision scenario if a present obligation is evidenced.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -1213,7 +1235,8 @@
         "liabilities": 0,
         "equity": -24000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D075",
@@ -1232,11 +1255,12 @@
       "statementEffect": {
         "profit": 0,
         "cash": 0,
-        "assets": 121000,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "€121,000 is the closing usable-inventory measurement, not a new €121,000 adjustment. It is already included in the balance sheet; the decision's incremental effect is therefore zero, while the €9,000 count difference remains disclosed."
     },
     {
       "id": "D076",
@@ -1403,7 +1427,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Use €72,000 corrected profit.",
+      "answer": "Use €74,000 corrected profit on the no-disposal-provision base case; show €72,000 only as the conditional disposal-provision scenario if a present obligation is evidenced.",
       "evidence": [
         "BK",
         "EXT"
@@ -1443,7 +1467,8 @@
         "liabilities": 0,
         "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     },
     {
       "id": "D092",
@@ -1547,24 +1572,25 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Do not use management's €312,000 profit for valuation or earn-out.",
+      "answer": "Do not use management's €312,000 profit for valuation or earn-out. Use the €74,000 no-disposal-provision base case; €72,000 is a conditional scenario only if a present obligation is evidenced.",
       "evidence": [
         "ORD",
         "BK",
         "EXT"
       ],
       "confidence": "high",
-      "aiProposal": "Do not use management's €312,000 profit for valuation or earn-out.",
-      "independentChallenge": "Independent review agrees corrected €72,000 profit and unresolved matters make that figure unsuitable.",
-      "studentReasoning": "I accept excluding management's €312,000 profit because the evidence-supported corrected profit is €72,000 and unresolved matters make the management figure unsuitable for valuation or earn-out.",
+      "aiProposal": "Do not use management's €312,000 profit for valuation or earn-out. Use the €74,000 no-disposal-provision base case; €72,000 is a conditional scenario only if a present obligation is evidenced.",
+      "independentChallenge": "Independent review agrees the management figure is unsuitable; a likely future disposal cost or quote alone does not establish a provision.",
+      "studentReasoning": "I accept excluding management's €312,000 profit. The evidence-supported base case is €74,000 with no disposal provision; €72,000 is shown separately only if evidence establishes a €2,000 present-obligation provision.",
       "statementEffect": {
-        "profit": -240000,
+        "profit": -238000,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -240000
+        "equity": -238000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "statementEffectBasis": "Effect is measured as the reporting-period impact of the stated treatment, supported by the listed evidence."
     }
   ],
   "schedules": {
@@ -1693,12 +1719,8 @@
           25000
         ],
         [
-          "Disposal provision",
-          2000
-        ],
-        [
           "Total operating expenses",
-          378000
+          376000
         ]
       ],
       "evidence": [
@@ -1791,8 +1813,8 @@
           170000
         ],
         [
-          "Profit for period",
-          72000
+          "Profit for period — no-provision base case",
+          74000
         ],
         [
           "Owner distributions",
@@ -1800,7 +1822,7 @@
         ],
         [
           "Closing equity",
-          132000
+          134000
         ]
       ],
       "evidence": [
@@ -1878,20 +1900,16 @@
           -25000
         ],
         [
-          "Disposal provision",
-          -2000
-        ],
-        [
-          "Operating profit",
-          84000
+          "Operating profit — no-provision base case",
+          86000
         ],
         [
           "Interest expense",
           -12000
         ],
         [
-          "Profit for the period",
-          72000
+          "Profit for the period — no-provision base case",
+          74000
         ]
       ]
     },
@@ -2016,16 +2034,12 @@
           -25000
         ],
         [
-          "Disposal provision",
-          -2000
+          "Total liabilities — no-provision base case",
+          -406000
         ],
         [
-          "Total liabilities",
-          -408000
-        ],
-        [
-          "Equity",
-          -132000
+          "Equity — no-provision base case",
+          -134000
         ],
         [
           "Total liabilities and equity",
@@ -2041,7 +2055,7 @@
   "reconciliations": [
     {
       "name": "Balance sheet",
-      "formula": "Assets €540,000 − liabilities €408,000 − equity €132,000",
+      "formula": "Assets €540,000 − liabilities €406,000 − equity €134,000 (no-provision base case)",
       "result": 0,
       "status": "pass",
       "evidence": [
@@ -2103,8 +2117,8 @@
     },
     {
       "name": "Equity roll-forward",
-      "formula": "€170,000 opening equity + €72,000 profit − €110,000 owner distributions",
-      "result": 132000,
+      "formula": "€170,000 opening equity + €74,000 base-case profit − €110,000 owner distributions",
+      "result": 134000,
       "status": "pass",
       "evidence": [
         "BK",
@@ -2130,8 +2144,19 @@
       "effect": "No zero-expense assumption; insurance remains low confidence."
     },
     {
-      "matter": "€2,000 disposal provision",
-      "effect": "A €2,000 provision is recognized for the expected cost of disposing of the relevant asset/item. The final disposal method and timing remain to be confirmed; this uncertainty is separate from the €24,000 depreciation charge."
+      "matter": "€2,000 potential disposal cost",
+      "effect": "No provision is recognized in the €74,000 base case because the current evidence does not establish a present obligation at 31 August. If a legal, contractual, or constructive obligation is evidenced, apply the conditional €72,000 scenario with a €2,000 disposal-provision liability and €132,000 equity."
+    }
+  ],
+  "conditionalScenarios": [
+    {
+      "name": "Conditional disposal-provision scenario",
+      "trigger": "Recognize only if evidence establishes a present obligation at 31 August (for example, a legal, contractual, or constructive obligation); a likely future cost or supplier quote alone is insufficient.",
+      "profit": 72000,
+      "liabilities": 408000,
+      "equity": 132000,
+      "incrementalDisposalProvision": 2000,
+      "basis": "Compared with the no-provision base case, this scenario adds a €2,000 expense and liability, reducing profit and equity by €2,000. Assets and cash are unchanged at recognition."
     }
   ],
   "certification": {
@@ -2169,7 +2194,7 @@
     "status": "student_certification_complete"
   },
   "boardRecommendation": {
-    "recommendation": "Corrected accounts are student-certified for submission. Do not use management's claimed profit for valuation or earn-out; use corrected €72,000 profit with the disclosed uncertainties.",
+    "recommendation": "Corrected accounts are student-certified for submission. Do not use management's claimed €312,000 profit for valuation or earn-out. Use the €74,000 no-provision base case; treat €72,000 as a conditional scenario only if a €2,000 present-obligation disposal provision is evidenced.",
     "status": "ready_for_submission"
   }
 }

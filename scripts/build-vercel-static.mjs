@@ -22,5 +22,10 @@ const css=`:root{--blue:#0c4a7c;--ink:#12304d;--muted:#587188;--line:#cfdfed;--p
 await fs.rm(out,{recursive:true,force:true});
 await fs.mkdir(path.join(out,"review"),{recursive:true});
 await Promise.all([fs.writeFile(path.join(out,"index.html"),home),fs.writeFile(path.join(out,"review","index.html"),review),fs.writeFile(path.join(out,"styles.css"),css),fs.writeFile(path.join(out,"submission.json"),JSON.stringify(data,null,2)+"\n")]);
-await fs.writeFile(path.join(out,"index.html"),home.replace("Corrected accounts<br>awaiting certification.","Corrected accounts<br>student-certified.").replace("student certification in progress","student certification complete"));
+await fs.writeFile(path.join(out,"index.html"),home.replace("Corrected accounts<br>awaiting certification.","Corrected accounts<br>student-certified.").replace("€72,000","€74,000").replace("€132,000","€134,000").replace("student certification in progress","student certification complete"));
+const effectDetails=data.decisions.filter(d=>["D042","D045","D049","D065","D066","D067","D075"].includes(d.id)).map(d=>`<article class="flag"><span class="id">${d.id}</span><h3>${escape(d.question)}</h3><p><strong>Effect basis</strong> ${escape(d.statementEffectBasis)}</p><div class="effects"><span>Profit ${euro(d.statementEffect.profit)}</span><span>Cash ${euro(d.statementEffect.cash)}</span><span>Assets ${euro(d.statementEffect.assets)}</span><span>Liabilities ${euro(d.statementEffect.liabilities)}</span><span>Equity ${euro(d.statementEffect.equity)}</span></div></article>`).join("");
+const scenarios=data.conditionalScenarios.map(s=>`<article class="flag"><h3>${escape(s.name)}</h3><p><strong>Recognition threshold</strong> ${escape(s.trigger)}</p><p><strong>Conditional result</strong> Profit ${euro(s.profit)} · liabilities ${euro(s.liabilities)} · equity ${euro(s.equity)}.</p><p>${escape(s.basis)}</p></article>`).join("");
+const reviewPath=path.join(out,"review","index.html");
+const reviewHtml=await fs.readFile(reviewPath,"utf8");
+await fs.writeFile(reviewPath,reviewHtml.replace("</main>",`<section><h2>Effect basis and cash/asset counterparts</h2><div class="grid">${effectDetails}</div></section><section><h2>Disposal-cost treatment</h2>${scenarios}</section></main>`));
 console.log("Built Vercel static site.");
