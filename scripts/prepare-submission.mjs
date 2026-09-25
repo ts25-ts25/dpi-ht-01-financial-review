@@ -45,13 +45,14 @@ Object.assign(material,{
   D045:["Expense the €10,000 belt and calibration as a repair.","Independent review treats the work as restoring the machine, not adding a distinct future benefit.",[-10000,-10000,-10000,0,-10000],["PUR","PPE","BK"],"medium"],
   D049:["Classify €80,000 event delivery payroll as a direct service cost.","Independent review agrees the staff worked directly on customer event delivery.",[-80000,-80000,-80000,0,-80000],["PAY","BK"],"medium"],
   D065:["Recognize €200,000 Freedom revenue; €142,000 was collected and €58,000 remains receivable.","Independent review agrees delivery occurred and isolates the unpaid balance for testing.",[200000,142000,200000,0,200000],["CTR","CRM","BK"],"high"],
-  D066:["Recognize €100,000 Phoenix revenue on completion; the amount was collected in cash.","Independent review agrees the CRM completion record supports recognition.",[100000,100000,100000,0,100000],["CTR","CRM","BK"],"medium"],
+  D066:["Recognize €100,000 Phoenix revenue on completion; €70,000 was collected and €30,000 remains receivable.","Independent review agrees the CRM completion record supports recognition and the bank evidence supports the €70,000 collection.",[100000,70000,100000,0,100000],["CTR","CRM","BK"],"medium"],
   D067:["Recognize €120,000 Liberty revenue; €95,000 was collected and €25,000 remains receivable.","Independent review agrees delivery is evidenced and the unpaid balance belongs in receivables.",[120000,95000,120000,0,120000],["CTR","CRM","BK"],"high"],
   D075:["Use €121,000 closing usable inventory and disclose the €9,000 count difference.","Independent review agrees with the usable-count basis but does not treat the difference as resolved.",[0,0,0,0,0],["WH","PUR"],"medium"],
   D100:["Do not use management's €312,000 profit for valuation or earn-out. Use the €74,000 no-disposal-provision base case; €72,000 is a conditional scenario only if a present obligation is evidenced.","Independent review agrees the management figure is unsuitable; a likely future disposal cost or quote alone does not establish a provision.",[-238000,0,0,0,-238000],["ORD","BK","EXT"],"high"]
 });
 Object.assign(exact,{D089:"Use €74,000 corrected profit on the no-disposal-provision base case; show €72,000 only as the conditional disposal-provision scenario if a present obligation is evidenced."});
 Object.assign(certifications,{
+  D066:"I accept €100,000 Phoenix revenue because the CRM completion record supports recognition. Bank evidence shows €70,000 collected and the remaining €30,000 is a receivable, so total assets still increase by €100,000.",
   D056:"I accept €24,000 depreciation because it is supported by the PPE register. The €2,000 potential disposal cost is not included in the base case because no present obligation is evidenced.",
   D074:"I accept €24,000 depreciation because it is supported by the PPE register and period calculation. The €2,000 disposal amount is shown only as a conditional provision scenario if a present obligation is evidenced.",
   D100:"I accept excluding management's €312,000 profit. The evidence-supported base case is €74,000 with no disposal provision; €72,000 is shown separately only if evidence establishes a €2,000 present-obligation provision."
@@ -61,7 +62,7 @@ const effectBases={
   D045:"Bank evidence shows the repair was paid in the period: repair expense reduces profit/equity and cash/total assets by €10,000; no payable remains.",
   D049:"Payroll and bank evidence show the direct event payroll was paid: direct service cost reduces profit/equity and cash/total assets by €80,000; no payroll payable is created by this decision.",
   D065:"The €200,000 delivered contract is represented by €142,000 cash collected plus €58,000 receivable; together those components increase total assets by €200,000.",
-  D066:"The completed Phoenix event was paid in cash, so the €100,000 revenue increase is matched by a €100,000 cash and total-assets increase.",
+  D066:"The completed Phoenix event is represented by €70,000 cash collected plus €30,000 receivable; together those components increase total assets by €100,000. This decision-level split does not alter the independently reconciled €60,000 closing cash balance.",
   D067:"The €120,000 delivered order is represented by €95,000 cash collected plus €25,000 receivable; together those components increase total assets by €120,000.",
   D075:"€121,000 is the closing usable-inventory measurement, not a new €121,000 adjustment. It is already included in the balance sheet; the decision's incremental effect is therefore zero, while the €9,000 count difference remains disclosed."
 };

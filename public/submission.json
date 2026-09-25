@@ -1045,25 +1045,25 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Completed Phoenix event.",
-      "answer": "Recognize €100,000 Phoenix revenue on completion; the amount was collected in cash.",
+      "answer": "Recognize €100,000 Phoenix revenue on completion; €70,000 was collected and €30,000 remains receivable.",
       "evidence": [
         "CTR",
         "CRM",
         "BK"
       ],
       "confidence": "medium",
-      "aiProposal": "Recognize €100,000 Phoenix revenue on completion; the amount was collected in cash.",
-      "independentChallenge": "Independent review agrees the CRM completion record supports recognition.",
-      "studentReasoning": "I accept this because the CRM completion record supports recognition of €100,000 Phoenix revenue in the reporting period.",
+      "aiProposal": "Recognize €100,000 Phoenix revenue on completion; €70,000 was collected and €30,000 remains receivable.",
+      "independentChallenge": "Independent review agrees the CRM completion record supports recognition and the bank evidence supports the €70,000 collection.",
+      "studentReasoning": "I accept €100,000 Phoenix revenue because the CRM completion record supports recognition. Bank evidence shows €70,000 collected and the remaining €30,000 is a receivable, so total assets still increase by €100,000.",
       "statementEffect": {
         "profit": 100000,
-        "cash": 100000,
+        "cash": 70000,
         "assets": 100000,
         "liabilities": 0,
         "equity": 100000
       },
       "changedFromAI": false,
-      "statementEffectBasis": "The completed Phoenix event was paid in cash, so the €100,000 revenue increase is matched by a €100,000 cash and total-assets increase."
+      "statementEffectBasis": "The completed Phoenix event is represented by €70,000 cash collected plus €30,000 receivable; together those components increase total assets by €100,000. This decision-level split does not alter the independently reconciled €60,000 closing cash balance."
     },
     {
       "id": "D067",
